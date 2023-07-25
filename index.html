@@ -1,0 +1,62 @@
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <h1>Travel reservation form</h1>
+  <h4>* denotes mandotory</h4>
+<form  method="get"action="/register">
+
+
+
+
+<br>Full name*:
+<br>
+<input type="text" placeholder="FirstName LastName" required>
+<br>Email address*:
+<br>
+<input type="email" placeholder="EMAIL_ADDRESS_" required>
+  <br>Select tour package*:
+  <br>
+<select name="seleção">
+  <option value="Goa">Goa</option>
+  <option value="Andhra Pradesh">Andhra Pradesh</option>
+  <option value="Haryana">Haryana</option>
+  <option value="Assam">Assam</option>
+<select>
+<br>
+Arrival date*:
+<br>
+<input type="date" placeholder="m/d/y">
+<br>
+Number of persons*:
+<br>
+<input type="number" placeholder="UNKNOWN_TYPE"  pattern="{9}"> <br>
+
+
+What would you want to avail?*<br>
+Boarding <input type="checkbox" /><br>
+Fooding <input type="checkbox" /><br>
+Sight seeing <input type="checkbox" /><br>
+Discout Coupon code:
+<br>
+<input type="text" placeholder="UNKNOWN_TYPE" pattern="{6-6}"> <br>
+Terms and conditions*
+<br>
+<input type="radio"> I agree
+<input type="radio"> I disagree <br>
+<input type="submit" value="Complete reservation">
+
+
+</form>
+ 
+</body>
+</html>
+
+
